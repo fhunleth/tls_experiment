@@ -11,7 +11,7 @@ defmodule TLSServer.Application do
       otp_app: :tls_server,
       keyfile: "priv/server-key.pem",
       certfile: "priv/server.pem",
-      #verify: :verify_peer,
+      verify: :verify_peer,
       cacertfile: "priv/signer.pem"
     ]
 

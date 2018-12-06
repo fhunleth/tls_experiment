@@ -6,7 +6,7 @@ defmodule TLSClient.Client do
          keyfile: "priv/device-key.pem",
          certfile: "priv/device.pem",
          verify: :verify_peer,
-         cacertfile: "priv/server.pem"
+         cacertfile: "priv/ca.pem"
        ]}
     ]
 
